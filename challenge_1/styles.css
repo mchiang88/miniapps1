@@ -1,0 +1,31 @@
+body {
+  text-align: center;
+}
+
+#game {
+  display: inline-block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.box {
+  box-sizing: border-box;
+  height: 50px;
+  width: 50px;
+}
+
+.leftcol {
+  border-right: 1px solid black;
+}
+
+.rightcol {
+  border-left: 1px solid black;
+}
+
+#toprow td {
+  border-bottom: 1px solid black;
+}
+
+#bottomrow td {
+  border-top: 1px solid black;
+}
